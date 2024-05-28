@@ -1,0 +1,14 @@
+{
+  "name": "quit",
+  "version": "1.0.0",
+  "description": "vamos escrever casos de teste utilizando o Jest aplicando em um projeto Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
