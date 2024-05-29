@@ -1,9 +1,9 @@
 function somar(a,b){
-    if((typeof a != 'number') || (typeof b != 'number')){
-    return "Caractere invalido"
+    a = parseFloat(a)
+    b = parseFloat(b)
+    if((isFinite(a) == false) || (isFinite(b) == false)){
+        return "Caractere invalido"
     }
-        return a+b
-    }
-
-
+    return a+b
+}
 module.exports = somar

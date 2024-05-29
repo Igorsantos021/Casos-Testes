@@ -41,3 +41,7 @@ test('Entrada invalida, favor reconferir dados inseridos',()=>{
 test('Soma de dois grandes numeros, somar 999999999 + 999999999 = 1999999998',()=>{
     expect(somar(999999999,999999999)).toBe(1999999998)
 })
+
+test('Soma de dois números inteiros positivos, 1 + 2 = 3',()=>{
+    expect(somar("1","2")).toBe(3)
+})
